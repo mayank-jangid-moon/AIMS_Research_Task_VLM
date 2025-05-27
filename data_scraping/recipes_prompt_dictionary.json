@@ -1,78 +1,42 @@
 {
-  "green swirl bake": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat oven to 400°F and grease a 3-quart dish. Boil cavatappi with peas and asparagus for 9–11 minutes, reserving 2/3 cup pasta water. Season and sauté chicken in oil until golden (5–7 min). In the Dutch oven, melt butter, whisk in flour, salt, pepper, then stir in milk, cream cheese, broth, and reserved pasta water until thick. Toss in pasta, chicken, spinach, tomatoes; transfer to dish, top with Parmesan and panko, and bake 15–20 min until bubbly and golden."
-  },
-  "noodly tangle": {
-    "file": "main_image.jpg",
-    "instruction": "Boil elbow macaroni in lightly salted water until tender (≈8 min), then rinse under cold water and drain. Whisk together mayonnaise, sugar, vinegar, mustard, salt, and pepper, then toss with pasta. Stir in celery, onion, green pepper, carrot, and pimentos. Refrigerate at least 4 hours (or overnight) to meld flavors before serving."
-  },
-  "creamy pink layer": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat oven to 350°F. Mix crushed pretzels, melted butter, and sugar, press into a 9×13-inch pan, and bake 10 min. In a bowl, beat cream cheese with sugar, fold in whipped topping, spread over cooled crust, and chill 30 min. Dissolve Jell-O in boiling water, stir in frozen strawberries until thawed, pour over cream cheese layer, and refrigerate at least 1 hour before slicing."
-  },
-  "spiced shred stack": {
-    "file": "main_image.jpg",
-    "instruction": "Combine shawarma spices in water with garlic and onion, simmer a whole chicken gently for 1 hour, turning every 20 min. Cool, shred meat, and reserve broth. Add bones back with water, simmer 1–2 hours, strain, and reduce broth by half. Return shredded chicken to reduced broth, cook until saucy, season with lemon juice and extra spices. Serve in bread or wraps."
-  },
-  "tart berry crumble": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat oven to 375°F. Toss strawberries and rhubarb with sugar, cornstarch, and salt, then pour into a baking dish. Mix flour, almonds, ¾ cup sugar, melted butter, lemon zest, and salt to form topping; chill briefly. Cover fruit with topping and bake about 1 hour until golden and bubbly. Let stand 30 min before serving."
-  },
-  "veggie garden layers": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat oven to 350°F and spray a 15×10-inch pan. Press crescent roll dough into pan, bake 10 min, and cool. Whip sour cream, cream cheese, ranch mix, dill, and garlic salt; spread over crust. Arrange broccoli, radish, onion, bell pepper, carrot, and celery on top; chill 1–2 hours, then cut into squares."
-  },
-  "charred sea pops": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat grill to medium. Crush garlic and salt, stir in paprika, cayenne, olive oil, and lemon juice to form a paste. Toss shrimp with paste until coated. Oil grill grate lightly, then grill shrimp 2–3 min per side until opaque. Serve with lemon wedges."
-  },
-  "folded veggie bundle": {
-    "file": "main_image.jpg",
-    "instruction": "Whisk mayonnaise, yogurt, and chipotle chiles into a spread. Microwave tortillas 30 sec to warm. Spread chipotle mayo down the center, top with lettuce, cheese, avocado, bacon, onion, tomato, and chicken. Fold opposing edges over filling and roll into a tight wrap."
-  },
-  "layered olive loaf": {
-    "file": "main_image.jpg",
-    "instruction": "Chop olives, pepperoncini, cauliflower, cocktail onions, garlic, capers, celery, and carrot; mix with oregano, basil, pepper, celery seed, oils, and vinegar. Refrigerate covered 8 hours (or overnight). Halve Italian loaves, hollow centers, spread olive salad on both halves, layer salami, ham, mortadella, mozzarella, and provolone; reassemble and slice into quarters."
-  },
-  "poppy crunch tube": {
-    "file": "main_image.jpg",
-    "instruction": "Poach hot dog in simmering water 5 min, then steam poppy-seed bun 2 min. Place dog in bun and layer mustard, relish, onion, tomato wedges (one side), pickle spear (other side), sport peppers, and celery salt—no ketchup."
-  },
-  "spiced beef bun": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat grill to medium-high and oil grate. Mix mayo with 1 tsp Cajun seasoning; set aside. Combine beef, onion, 3 tsp seasoning, jalapeño, garlic, and Worcestershire, form patties. Grill 5 min per side, topping with pepper Jack during last 2 min. Spread Cajun mayo on buns, add burger, lettuce, and tomato."
-  },
-  "fiery crunch pieces": {
-    "file": "main_image.jpg",
-    "instruction": "Marinate chicken in buttermilk, brine, and hot sauce 2–4 hours. Dredge twice in seasoned flour and let coating dry 15 min. Fry in 350°F oil 8–10 min per side until 160°F inside. Melt butter and lard with cayenne, sugar, paprika, and seasonings for sauce; brush on chicken and serve hot."
-  },
-  "saucy rice bed": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat oven to 375°F. Toss chicken with onion powder, Sriracha, soy sauce, and garlic, coat with flour. Brown chicken in skillet, then add rice, chili sauce, rice vinegar, soy sauce, garlic, and broth; bring to boil. Top with chicken, cover, and bake 22–25 min. Whisk mayo, sweet chili sauce, Sriracha, and vinegar; drizzle over casserole and garnish with scallions and sesame seeds."
-  },
-  "sweet green dome": {
-    "file": "main_image.jpg",
-    "instruction": "Cook custard by whisking sugar, cornstarch, milk, and yolks over heat until thick; strain and chill 3–4 hours. Bake sponge layers at 350°F for 20–22 min, cool, and split each layer. Layer cake with raspberry jam and pastry cream, then pipe whipped cream dome. Roll colored marzipan into a circle, drape over cake, dust with sugar, and garnish with raspberries."
-  },
-  "layered green bake": {
-    "file": "main_image.jpg",
-    "instruction": "Melt butter, stir in flour and milk to make white sauce; season with salt and pepper. Layer half the browned crumbs in a dish, top with asparagus and chopped eggs, pour sauce over, then cover with remaining crumbs. Bake 30 min until hot and golden."
-  },
-  "moist fruit layers": {
-    "file": "main_image.jpg",
-    "instruction": "Preheat oven to 350°F and grease three 9-inch pans. Cream butter with brown sugar, beat in eggs, bananas, and sour cream; stir in flour, soda, salt, and walnuts. Bake 30–40 min until toothpick clean; cool. Beat confectioners’ sugar, butter, sour cream, and vanilla into frosting; layer and frost cake."
-  },
-  "chilled green slices": {
-    "file": "main_image.jpg",
-    "instruction": "Salt cucumbers and onion in a bowl, let sit 15–30 min, then drain in a colander. Whisk mayonnaise, vinegar, sugar, dill, garlic powder, and pepper; toss with drained veggies. Cover and refrigerate 1–2 hours before serving."
-  },
-  "cheesy wheel": {
-    "file": "main_image.jpg",
-    "instruction": "Place pizza stone on grill over wood fire. Roll dough to thickness, cook one side 10 min, flip, spread sauce, cheese, and pepperoni. Tent with foil and cook until cheese melts (≈10 min). Cool slightly, slice, and serve."
-  },
-  "sealed triangle treat": {
-    "file": "main_image.jpg",
-    "instruction": "Heat oven to 375°F. Roll out and separate dough into rectangles, seal perforations. Spread sauce and cheese, top with pepperoni, fold and seal edges, prick tops. Bake 13–15 min until golden brown. Serve warm."
-  }
+    "noodly tangle": {
+        "file": "Classic Macaroni Salad Recipe with Video.jpg",
+        "instruction": "Boil elbow macaroni in lightly salted water until tender (~8 min), then rinse under cold water and drain. Whisk together mayonnaise, sugar, vinegar, mustard, salt, and pepper, then toss with pasta. Stir in celery, onion, green pepper, carrot, and pimentos. Refrigerate at least 4 hours (or overnight) to meld flavors before serving."
+    },
+    "creamy pink layer": {
+        "file": "Judys Strawberry Pretzel Salad Recipe.jpg",
+        "instruction": "Preheat oven to 350°F. Mix crushed pretzels, melted butter, and sugar, press into a 9×13-inch pan, and bake 10 min. In a bowl, beat cream cheese with sugar, fold in whipped topping, spread over cooled crust, and chill 30 min. Dissolve Jell-O in boiling water, stir in frozen strawberries until thawed, pour over cream cheese layer, and refrigerate at least 1 hour before slicing."
+    },
+    "spiced shred stack": {
+        "file": "Pulled Chicken Shawarma Sandwich Recipe.jpg",
+        "instruction": "Combine shawarma spices in water with garlic and onion, simmer a whole chicken gently for 1 hour, turning every 20 min. Cool, shred meat, and reserve broth. Add bones back with water, simmer 1–2 hours, strain, and reduce broth by half. Return shredded chicken to reduced broth, cook until saucy, season with lemon juice and extra spices. Serve in bread or wraps."
+    },
+    "veggie garden layers": {
+        "file": "Veggie Pizza Recipe.jpg",
+        "instruction": "Preheat oven to 350°F and spray a 15×10-inch pan. Press crescent roll dough into pan, bake 10 min, and cool. Whip sour cream, cream cheese, ranch mix, dill, and garlic salt; spread over crust. Arrange broccoli, radish, onion, bell pepper, carrot, and celery on top; chill 1–2 hours, then cut into squares."
+    },
+    "charred sea pops": {
+        "file": "Spicy Grilled Shrimp Recipe.jpg",
+        "instruction": "Preheat grill to medium. Crush garlic and salt, stir in paprika, cayenne, olive oil, and lemon juice to form a paste. Toss shrimp with paste until coated. Oil grill grate lightly, then grill shrimp 2–3 min per side until opaque. Serve with lemon wedges."
+    },
+    "folded veggie bundle": {
+        "file": "California Club Chicken Wraps Recipe.jpg",
+        "instruction": "Whisk mayonnaise, yogurt, and chipotle chiles into a spread. Microwave tortillas 30 sec to warm. Spread chipotle mayo down the center, top with lettuce, cheese, avocado, bacon, onion, tomato, and chicken. Fold opposing edges over filling and roll into a tight wrap."
+    },
+    "layered olive loaf": {
+        "file": "Real Nawlins Muffuletta Recipe.jpg",
+        "instruction": "Chop olives, pepperoncini, cauliflower, cocktail onions, garlic, capers, celery, and carrot; mix with oregano, basil, pepper, celery seed, oils, and vinegar. Refrigerate covered 8 hours (or overnight). Halve Italian loaves, hollow centers, spread olive salad on both halves, layer salami, ham, mortadella, mozzarella, and provolone; reassemble and slice into quarters."
+    },
+    "poppy crunch tube": {
+        "file": "Chicago-Style Hot Dog Recipe.jpg",
+        "instruction": "Poach hot dog in simmering water 5 min, then steam poppy-seed bun 2 min. Place dog in bun and layer mustard, relish, onion, tomato wedges (one side), pickle spear (other side), sport peppers, and celery salt—no ketchup."
+    },
+    "spiced beef bun": {
+        "file": "Tex-Mex Burger with Cajun Mayo Recipe.jpg",
+        "instruction": "Preheat grill to medium-high and oil grate. Mix mayo with 1 tsp Cajun seasoning; set aside. Combine beef, onion, 3 tsp seasoning, jalapeño, garlic, and Worcestershire, form patties. Grill 5 min per side, topping with pepper Jack during last 2 min. Spread Cajun mayo on buns, add burger, lettuce, and tomato."
+    },
+    "cheesy wheel": {
+        "file": "Campfire Pepperoni Pizza Recipe.jpg",
+        "instruction": "Place pizza stone on grill over wood fire. Roll dough to thickness, cook one side 10 min, flip, spread sauce, cheese, and pepperoni. Tent with foil and cook until cheese melts (~10 min). Cool slightly, slice, and serve."
+    }
 }
