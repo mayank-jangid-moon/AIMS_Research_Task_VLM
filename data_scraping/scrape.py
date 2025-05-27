@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 
 
 def sanitize_filename(name: str) -> str:
-    # Remove invalid characters for filenames
     return ''.join(c for c in name if c.isalnum() or c in (' ', '_', '-')).rstrip()
 
 
@@ -30,13 +29,11 @@ def scrape_allrecipes(url: str, output_dir: str) -> dict:
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, 'html.parser')
 
-    # Title
     title = soup.find('title').get_text(strip=True)
     safe_title = sanitize_filename(title)
     recipe_dir = os.path.join(output_dir, safe_title)
     os.makedirs(recipe_dir, exist_ok=True)
 
-    # Main image: from JSON-LD or og:image
     main_image_url = None
     ld = soup.find('script', type='application/ld+json')
     if ld:
@@ -62,18 +59,28 @@ def scrape_allrecipes(url: str, output_dir: str) -> dict:
         main_image_path = os.path.join(recipe_dir, f"main_image{ext}")
         download_image(main_image_url, main_image_path)
 
-    # Ingredients
     ingredients = [
         li.get_text(separator=' ', strip=True)
         for li in soup.select('li.mm-recipes-structured-ingredients__list-item p')
     ]
 
-    # Steps: single list of numbered descriptions
     step_texts = []
     for idx, li in enumerate(soup.select('div.mm-recipes-steps__content ol li'), start=1):
         text = li.get_text(strip=True)
-        numbered_text = f"{idx}. {text}"
-        # Download step image
+
+        # Clean known credits
+        credits_to_remove = [
+            "Dotdash Meredith Food Studios",
+            "Allrecipes Video",
+            "Jason Donnelly / Food Styling: Holly Dreesman / Prop Styling: Lexi Juhl, Dera Burreson",
+            "John Mitzewich",
+            "Recipe TipYou can make the pastry cream a day in advance; store in the fridge until needed.",
+            "DOTDASH MEREDITH FOOD STUDIOS"
+        ]
+        for credit in credits_to_remove:
+            text = text.replace(credit, '').strip()
+
+        # Download step image if present, but don't store in JSON
         img_tag = li.find('img')
         if img_tag:
             img_url = img_tag.get('data-src') or img_tag.get('src')
@@ -81,9 +88,10 @@ def scrape_allrecipes(url: str, output_dir: str) -> dict:
                 ext = os.path.splitext(urlparse(img_url).path)[1] or '.jpg'
                 img_path = os.path.join(recipe_dir, f"step_{idx}{ext}")
                 download_image(img_url, img_path)
+
+        numbered_text = f"{idx}. {text}"
         step_texts.append(numbered_text)
 
-    # Metadata via JSON-LD
     prep_time = cook_time = nutrition = None
     if ld:
         try:
@@ -141,6 +149,6 @@ if __name__ == '__main__':
             print(f"Error scraping {url}: {e}")
 
     with open(os.path.join(output_dir, 'recipes_data.json'), 'w', encoding='utf-8') as f:
-        json.dump(all_recipes, f, ensure_ascii=False, indent=4)
+        json.dump(all_recipes, f, ensure_ascii=False, indent=2)
 
     print(f"Scraped {len(all_recipes)} recipes. Data saved in {output_dir}.")
