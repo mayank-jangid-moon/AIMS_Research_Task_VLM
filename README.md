@@ -36,13 +36,8 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 ### Install required dependencies
 
 ```bash
-pip install transformers torch pillow huggingface_hub kaggle_secrets evaluate
+pip install transformers torch pillow huggingface_hub evaluate
 ```
-
-### Set up Hugging Face authentication
-
-- Store your HF token in Kaggle secrets as "huggingface_key"
-- Or modify the authentication method in `model.py`
 
 ## Usage
 
