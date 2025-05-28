@@ -16,18 +16,19 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 
 ## Project Structure
 
-```
-├── model.py                    # Main inference script with VLM model
-├── utils/
-│   └── rouge.py               # ROUGE evaluation metrics
-├── data_scraping/
-│   ├── scrape.py              # AllRecipes web scraper
-│   ├── recipes_data_train.json # Training dataset with few-shot examples
-│   ├── recipes_data_test.json  # Test dataset for evaluation
-│   ├── prompt.json            # Few-shot prompt examples
-│   └── recipe_images/
-│       └── Train/             # Training images for few-shot examples
-└── README.md
+```  
+├── model.py                      # Main inference script with VLM model
+├── utils/  
+│   └── rouge.py                  # ROUGE evaluation metrics
+├── data_scraping/  
+│   ├── scrape.py                 # AllRecipes web scraper
+│   ├── recipes_data_train.json   # Training dataset with few-shot examples
+│   ├── recipes_data_test.json    # Test dataset for evaluation
+│   ├── prompt.json               # Few-shot prompt examples
+│   └── recipe_images/  
+│       ├── Train/                # AllRecipes web scraper
+│       └── Test/                 # Training images for few-shot examples
+└── README.md  
 ```
 
 ## Installation
