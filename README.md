@@ -25,7 +25,6 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 │   ├── scrape.py                 # AllRecipes web scraper
 │   ├── recipes_data_train.json   # Training dataset with few-shot examples
 │   ├── recipes_data_test.json    # Test dataset for evaluation
-│   ├── prompt.json               # Few-shot prompt examples
 │   └── recipe_images/            # Train and Test Images for Model
 │       ├── Train/               
 │       └── Test/                 
