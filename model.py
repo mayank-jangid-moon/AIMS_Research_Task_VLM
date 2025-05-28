@@ -1,17 +1,12 @@
-from kaggle_secrets import UserSecretsClient
-from huggingface_hub import login
 from transformers import AutoProcessor, Gemma3ForConditionalGeneration
 from PIL import Image
 import torch
 import argparse
 import os
+from huggingface_hub import login
+login(token="YOUR_HUGGINGFACE_LOGIN_TOKEN")
 
 def load_model():
-    # Hugging Face Login
-    user_secrets = UserSecretsClient()
-    secret_value_0 = user_secrets.get_secret("huggingface_key")
-    login(token=secret_value_0)
-
     # Load the Model
     model_id = "google/gemma-3-4b-it"
     model = Gemma3ForConditionalGeneration.from_pretrained(
