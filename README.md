@@ -18,7 +18,7 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 
 ```bash
 ├── model.py                      # Main inference script with VLM model
-├── model.py                      # Example Model Implementation and Output
+├── example_notebook.ipynb        # Example Model Implementation and Output
 ├── utils/  
 │   └── rouge.py                  # ROUGE evaluation metrics
 ├── data_scraping/  
