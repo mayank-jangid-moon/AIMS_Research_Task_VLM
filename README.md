@@ -33,8 +33,6 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 
 ## Installation
 
-### Install required dependencies
-
 ```bash
 pip install transformers torch pillow huggingface_hub evaluate
 ```
