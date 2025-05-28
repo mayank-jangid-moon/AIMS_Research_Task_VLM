@@ -1,4 +1,4 @@
-# AIMS Research VLM - Recipe Instruction Generation
+# AIMS Research VLM - Recipe Summary Generator
 
 A multimodal AI system that generates concise cooking instructions from food images and vague dish titles using Vision-Language Models (VLM).
 
