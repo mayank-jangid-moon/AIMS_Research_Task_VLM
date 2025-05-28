@@ -16,7 +16,7 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 
 ## Project Structure
 
-```  
+```bash
 ├── model.py                      # Main inference script with VLM model
 ├── utils/  
 │   └── rouge.py                  # ROUGE evaluation metrics
@@ -34,13 +34,15 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 ## Installation
 
 ### Install required dependencies:
+
 ```bash
 pip install transformers torch pillow huggingface_hub kaggle_secrets evaluate
 ```
 
 ### Set up Hugging Face authentication:
-   - Store your HF token in Kaggle secrets as "huggingface_key"
-   - Or modify the authentication method in `model.py`
+
+- Store your HF token in Kaggle secrets as "huggingface_key"
+- Or modify the authentication method in `model.py`
 
 ## Usage
 
@@ -51,6 +53,7 @@ python3 model.py --image path/to/food_image.jpg --title "vague dish description"
 ```
 
 **Example:**
+
 ```bash
 python3 model.py --image "data_scraping/recipe_images/Train/Dads Creamy Cucumber Salad Recipe.jpg" --title "chilled green slices"
 ```
@@ -66,6 +69,7 @@ python3 data_scraping/scrape.py
 ```
 
 The scraper will:
+
 - Download recipe data and images
 - Extract ingredients, steps, and metadata
 - Save structured JSON data
@@ -73,15 +77,18 @@ The scraper will:
 ## Dataset
 
 ### Training Data (Few-Shot Examples)
+
 - **10 recipe examples** with vague titles and concise instructions
 - Examples include: "green swirl bake", "creamy pink layer", "spiced shred stack"
 - Used for in-context learning during inference
 
 ### Test Data
+
 - **5 additional recipes** for evaluation
 - Examples: "noodly tangle", "chilled green slices", "fiery crunch pieces"
 
 ### Data Format
+
 ```json
 {
   "title": "Recipe Title",
