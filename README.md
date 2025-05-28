@@ -10,14 +10,15 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 
 - **Multimodal Understanding**: Processes both images and text to generate cooking instructions
 - **Few-Shot Learning**: Uses curated examples to improve output quality
-- **ROUGE Evaluation**: Comprehensive evaluation metrics for generated instructions
-- **Data Collection Pipeline**: Web scraping tools for recipe data and images
+- **ROUGE Evaluation**: Comprehensive evaluation metrics for evaluating the summaries with original reference text.
+- **Data Collection Pipeline**: Web scraping using BeautifulSoup for recipe data and images
 - **Flexible Inference**: Command-line interface for easy testing
 
 ## Project Structure
 
 ```bash
 ├── model.py                      # Main inference script with VLM model
+├── model.py                      # Example Model Implementation and Output
 ├── utils/  
 │   └── rouge.py                  # ROUGE evaluation metrics
 ├── data_scraping/  
@@ -102,7 +103,7 @@ The scraper will:
 
 ## Model Details
 
-- **Base Model**: google/gemma-3-4b-it
+- **Base Model**: `google/gemma-3-4b-it`
 - **Task**: Multimodal recipe instruction generation
 - **Input**: Food image + vague title
 - **Output**: 2-3 step cooking instructions
