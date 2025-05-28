@@ -34,13 +34,13 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 
 ## Installation
 
-### Install required dependencies:
+### Install required dependencies
 
 ```bash
 pip install transformers torch pillow huggingface_hub kaggle_secrets evaluate
 ```
 
-### Set up Hugging Face authentication:
+### Set up Hugging Face authentication
 
 - Store your HF token in Kaggle secrets as "huggingface_key"
 - Or modify the authentication method in `model.py`
@@ -118,4 +118,3 @@ ROUGE metrics compare generated instruction summaries against original recipe st
 - **ROUGE-L**: Longest common subsequence
 
 Results show both aggregate scores across all recipes and per-recipe breakdowns.
-
