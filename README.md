@@ -27,8 +27,9 @@ This project uses the `google/gemma3-4b-it` model to generate recipe instruction
 │   ├── recipes_data_test.json    # Test dataset for evaluation
 │   └── recipe_images/            # Train and Test Images for Model
 │       ├── Train/               
-│       └── Test/                 
-└── README.md  
+│       └── Test/  
+├── README.md               
+└── Report.pdf
 ```
 
 ## Installation
