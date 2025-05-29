@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 
 import evaluate
 
-def compute_notebook_vs_json_rouge():
+def calculate_rouge():
     
     # Generated summaries from notebook examples
     generated_summaries = {
@@ -51,7 +51,7 @@ def compute_notebook_vs_json_rouge():
     # Aggregate scores
     agg_scores = rouge.compute(predictions=predictions, references=references, use_stemmer=True)
     
-    print("\n=== Notebook vs JSON ROUGE Comparison ===")
+    print("\n=== Predicted vs Original ROUGE Comparison ===")
     print(f"Total matched recipes: {len(matched_pairs)}")
     print(f"\nAggregate ROUGE Scores:")
     print(f"ROUGE-1 : {agg_scores['rouge1']:.3f}")
@@ -74,7 +74,7 @@ def compute_notebook_vs_json_rouge():
         print(f"  ROUGE-L: {individual_scores['rougeL']:.3f}")
 
 def main():
-    compute_notebook_vs_json_rouge()
+    calculate_rouge()
 
 if __name__ == "__main__":
     main()
