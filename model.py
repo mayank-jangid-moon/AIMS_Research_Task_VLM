@@ -18,12 +18,12 @@ def load_model():
 
 def create_few_shot_examples(image_dir=None):
     recipes = {
-        "noodly tangle": {
-            "file": "Classic Macaroni Salad Recipe with Video.jpg",
+        "sweet green dome": {
+            "file": "Swedish Princess Cake Prinsesstrta Recipe.jpg",
             "instruction": (
-                "• **Cook Pasta**: Boil elbow macaroni in lightly salted water until tender (~8 min), rinse under cold water, and drain.\n"
-                "• **Mix Dressing**: Whisk together mayonnaise, sugar, vinegar, mustard, salt, and pepper; toss with pasta.\n"
-                "• **Combine & Chill**: Stir in celery, onion, green pepper, carrot, and pimentos. Refrigerate at least 4 hours or overnight."
+                "• **Make Custard**: Whisk sugar, cornstarch, milk, and yolks over heat until thickened; strain and chill 3 to 4 hours.\n"
+                "• **Layer Cake**: Bake sponge layers at 350°F for 20 to 22 min, cool, and split. Layer with raspberry jam and pastry cream.\n"
+                "• **Decorate Dome**: Pipe whipped cream in a dome, drape marzipan circle over, dust with sugar, and garnish with raspberries."
             )
         },
         "creamy pink layer": {
@@ -99,6 +99,7 @@ def create_few_shot_examples(image_dir=None):
             )
         }
     }
+
     
     messages = []
     messages.append({
