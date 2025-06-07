@@ -1,6 +1,6 @@
 # Multimodal Cooking Assistant: Crafting Recipes from Images and Titles
 
-A multimodal AI system that generates concise cooking instructions from food images and vague dish titles using Vision-Language Models (VLM).
+A multimodal AI system that generates concise cooking instructions from food images and vague dish titles using **Vision-Language Models (VLM)**.
 
 ## Overview
 
